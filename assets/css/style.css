@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+    --fundo-escuro: #171717;
+    --borda-clara: #1E1D1D;
+    --cor-primaria: #27AE60;
+    --cor-cinza: #828282;
+}
+
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: var(--fundo-escuro);
+}
+
+/* Margin */
+.my-10 {
+    margin: 100px 0;
+}
+
+/* Text colors */
+.text-gray {
+    color: var(--cor-cinza);
+}
+
+/* Text size */
+.fs-small {
+    font-size: 18px;
+}
+
+.fs-large {
+    font-size: 48px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+}
+
+.btn-primary:hover {
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+}
+
+.btn-outline-secondary {
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-secondary:hover {
+    background-color: white;
+    border-color: white;
+    color: var(--fundo-escuro);
+}
+
+
+img.perfil {
+    border-radius: 50%;
+    border: 2px solid var(--borda-clara);
+    padding: 30px;
+}
