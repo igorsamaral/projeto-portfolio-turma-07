@@ -66,3 +66,47 @@ img.perfil {
     border: 2px solid var(--borda-clara);
     padding: 30px;
 }
+
+
+
+
+
+
+/* Form */
+.display-flex {
+    display: flex;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.input-custom {
+    width: 100%;
+    background-color: transparent;
+    margin: 30px 0;
+    border: 0;
+    border-bottom: 1px solid #4F4F4F;
+}
+
+.textarea-custom {
+    width: 100%;
+    background-color: transparent;
+    margin: 30px 0;
+    border: 1px solid #4F4F4F;
+}
+
+.spacing-2 {
+    margin-right: 50px;
+}
+
+.button {
+    background: #27AE60;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
